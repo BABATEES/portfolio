@@ -5,14 +5,7 @@ body {
 }
 
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1%;
-  background-color: #13293d;
-  color: #fff;
-}
+
 
 h1, h3 {
   font-family: var(--header-font-family);
@@ -29,12 +22,14 @@ h3 {
 }
 
 /* Header Styles */
+
 header {
-  padding: 20px 35px;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  padding: 1%;
+  background-color: #13293d;
+  color: #fff;
 }
 
 header nav ul {
